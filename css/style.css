@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@font-face {
+  font-family:"love";
+  src: url("jandles.ttf") format("truetype");
+}
+
+html,body {
+  background-image: url("../img/heart.jpg");
+  height: 100%;
+}
+
+h1.heading1 {
+	font-family: "love", sans-serif;
+	color: #FF2D63;
+	font-size: 4.5rem;
+	letter-spacing: 2px;
+	margin-top: 100px;
+}
+
+p.bodyText {
+	font-family: "love", sans-serif;
+	color: #FF2D63;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+}
+
+.image {
+	max-height: 400px;
+	width: 400px;
+	background-color: white;
+}
+
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+* {
+cursor: url(http://ani.cursors-4u.net/symbols/sym-8/sym755.ani), url(http://ani.cursors-4u.net/symbols/sym-8/sym755.png), auto !important;
+} 
