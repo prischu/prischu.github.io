@@ -12,7 +12,7 @@ html,body {
 
 h1.heading1 {
 	font-family: "love", sans-serif;
-	color: #FF2D63;
+	color: #fe5259;
 	font-size: 4.5rem;
 	letter-spacing: 2px;
 	margin-top: 100px;
@@ -39,3 +39,32 @@ p.bodyText {
 * {
 cursor: url(http://ani.cursors-4u.net/symbols/sym-8/sym755.ani), url(http://ani.cursors-4u.net/symbols/sym-8/sym755.png), auto !important;
 } 
+
+body {
+	position: relative!important;
+}
+
+body:before {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	background-image: url("../img/heartsRain.png");
+	animation: falling-hearts 18s linear infinite;
+}
+
+@keyframes falling-hearts {
+0% {background-position: 0% 30%;}
+}
+
+@-moz-keyframes falling-hearts {
+0% {background-position: 0% 30%;}
+}
+
+@-webkit-keyframes falling-hearts {
+0% {background-position: 0% 30%;}
+}
